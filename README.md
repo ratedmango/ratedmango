@@ -4,7 +4,10 @@
 - 💞️ I’m looking to collaborate on anything that may help in my learning :-)
 - 📫 Feel free to reach out to me via Github or Instagram @ratedmango
 
-<!---
-ratedmango/ratedmango is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+let coffee = new Coffee();
+
+if (coffee isEmpty()) {
+    coffee refill();
+} else {
+    coffee drink();
+}
